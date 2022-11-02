@@ -7,7 +7,7 @@ export default function SSRVSHydration(props : {users : {name : string}[]}) {
   const [userName, setUserName] = useState<string>('');
   useEffect(() => {
     fetchUsers().then((data) => {
-      setUserName(data[0].username);
+      setUserName(data[0].name);
     });
   }, []);
 
