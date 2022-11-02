@@ -1,9 +1,11 @@
 {
-  "editor.formatOnSave": true,
-  "eslint.format.enable": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "eslint.alwaysShowStatus": true,  
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": false,
+  "eslint.format.enable": true,
   "[typescriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  }
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "conf.cssModuleTransform.styleVariable": "styles",
+  
 }
