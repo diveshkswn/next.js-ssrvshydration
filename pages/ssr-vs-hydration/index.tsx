@@ -19,7 +19,7 @@ export default function SSRVSHydration(props : {users : {name : string}[]}) {
         {props.users[0]?.name}
       </h2>
       <h3>
-        username(componentDidMount/Hydration) :
+        User(componentDidMount/Hydration) :
         {' '}
         {userName}
       </h3>
